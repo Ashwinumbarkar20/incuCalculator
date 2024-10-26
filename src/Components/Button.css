@@ -1,0 +1,12 @@
+.calc-Button{
+
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+.calc-Button:hover{
+background-color: black;
+color: #FFFFFF;
+}
