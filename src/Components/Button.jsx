@@ -1,9 +1,9 @@
 import React from 'react'
 import './Button.css'
-export default function Button({data}) {
+export default function Button({handleClick,data}) {
   return (
     <>
-     <span className='calc-Button'>{data}</span> 
+     <span onClick={handleClick} className='calc-Button'>{data}</span> 
     </>
   )
 }
