@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Button.css'
 export default function Button({data}) {
   return (
     <>
-     <div className='calc-Button'>{data}</div> 
+     <span className='calc-Button'>{data}</span> 
     </>
   )
 }
